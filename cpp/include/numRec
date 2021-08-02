@@ -1,0 +1,15 @@
+#ifndef NUMERICAL_RECIPES_LIBRARY_H
+#define NUMERICAL_RECIPES_LIBRARY_H
+
+#include "numRec_bits/nr.hpp"
+#include "numRec_bits/gaussj.hpp"
+#include "numRec_bits/ludcmp.hpp"
+#include "numRec_bits/banded.hpp"
+#include "numRec_bits/tridag.hpp"
+#include "numRec_bits/svd.hpp"
+#include "numRec_bits/vander.hpp"
+#include "numRec_bits/toeplz.hpp"
+#include "numRec_bits/cholesky.hpp"
+#include "numRec_bits/qrdcmp.hpp"
+
+#endif

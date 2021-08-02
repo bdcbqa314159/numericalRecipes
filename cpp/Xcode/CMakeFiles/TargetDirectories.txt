@@ -1,0 +1,4 @@
+/Users/bernardocohen/repos/numericalRecipes/cpp/Xcode/CMakeFiles/install.dir
+/Users/bernardocohen/repos/numericalRecipes/cpp/Xcode/CMakeFiles/numRec.dir
+/Users/bernardocohen/repos/numericalRecipes/cpp/Xcode/CMakeFiles/ALL_BUILD.dir
+/Users/bernardocohen/repos/numericalRecipes/cpp/Xcode/CMakeFiles/ZERO_CHECK.dir

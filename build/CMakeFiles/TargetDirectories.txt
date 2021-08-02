@@ -1,0 +1,7 @@
+/Users/bernardocohen/repos/numericalRecipes/build/CMakeFiles/install/local.dir
+/Users/bernardocohen/repos/numericalRecipes/build/CMakeFiles/install/strip.dir
+/Users/bernardocohen/repos/numericalRecipes/build/CMakeFiles/install.dir
+/Users/bernardocohen/repos/numericalRecipes/build/CMakeFiles/list_install_components.dir
+/Users/bernardocohen/repos/numericalRecipes/build/CMakeFiles/rebuild_cache.dir
+/Users/bernardocohen/repos/numericalRecipes/build/CMakeFiles/edit_cache.dir
+/Users/bernardocohen/repos/numericalRecipes/build/CMakeFiles/numRec.dir
