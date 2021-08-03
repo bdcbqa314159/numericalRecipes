@@ -28,6 +28,9 @@ set(SOURCE_FILES
 	${PROJECT_INCLUDE_DIR}/toeplz.hpp
 	${PROJECT_INCLUDE_DIR}/cholesky.hpp
 	${PROJECT_INCLUDE_DIR}/qrdcmp.hpp
+ 
+    ${PROJECT_INCLUDE_DIR}/interp_1d.hpp
+    ${PROJECT_INCLUDE_DIR}/interp_linear.hpp
 
 	${PROJECT_SOURCE_DIR}/nr.cpp
 	${PROJECT_SOURCE_DIR}/gaussj.cpp
@@ -39,6 +42,9 @@ set(SOURCE_FILES
 	${PROJECT_SOURCE_DIR}/toeplz.cpp
 	${PROJECT_SOURCE_DIR}/cholesky.cpp
 	${PROJECT_SOURCE_DIR}/qrdcmp.cpp
+ 
+    ${PROJECT_SOURCE_DIR}/interp_1d.cpp
+    ${PROJECT_SOURCE_DIR}/interp_linear.cpp
 )
 
 # Set up such that XCode organizes the files correctly

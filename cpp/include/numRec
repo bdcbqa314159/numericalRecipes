@@ -11,5 +11,7 @@
 #include "numRec_bits/toeplz.hpp"
 #include "numRec_bits/cholesky.hpp"
 #include "numRec_bits/qrdcmp.hpp"
+#include "numRec_bits/interp_1d.hpp"
+#include "numRec_bits/interp_linear.hpp"
 
 #endif

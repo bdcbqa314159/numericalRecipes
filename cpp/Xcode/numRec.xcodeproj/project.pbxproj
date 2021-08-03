@@ -9,32 +9,32 @@
 /* Begin PBXAggregateTarget section */
 		16446089644F4758A43E9D76 /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 62FF9B5C850F480F9FA8552A /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = CCA2CF252B3E4BA1BA7C5584 /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				EC2A0177A5764629BADD8BED /* PBXTargetDependency */,
+				F990423A20344B5283481493 /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
 		};
 		4EFD69B515774D9DB70AD6B4 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 6738EB431C1C46729C3B161B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = CC003C2357C54202862EBD0F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				0880ABFCAABBB06B398F241F /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				A538F4EE9E354005AE3F9CE8 /* PBXTargetDependency */,
-				61A42A8CA37242838E9B1898 /* PBXTargetDependency */,
+				8C9DAB36189045449F61120A /* PBXTargetDependency */,
+				D2FB08B3569E44378F72883D /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		C6670F69049C4541A160A7B8 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 2497B417388A49B7B9A2E9DC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = B8452D757ACF429198E44C6C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				6CA44D7354B5F790D74E1970 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -46,119 +46,127 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		031EFCD535ED4D7FA9D93940 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/vander.hpp */ = {isa = PBXBuildFile; fileRef = 91E98DE777A447B9ACA73916 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/vander.hpp */; };
-		1542DCB806034E83AD06EED8 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/gaussj.cpp */ = {isa = PBXBuildFile; fileRef = 93C49E3F6461452CB4A6E049 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/gaussj.cpp */; };
-		15754DB1321443A58B40A5B1 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/toeplz.hpp */ = {isa = PBXBuildFile; fileRef = 4F90E666951448BF916C122E /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/toeplz.hpp */; };
-		170502295A1D41C38D7529C9 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/cholesky.cpp */ = {isa = PBXBuildFile; fileRef = 200C57451DB24E5C906E1F88 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/cholesky.cpp */; };
-		28FAF122A6B148B09FC525A7 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/tridag.cpp */ = {isa = PBXBuildFile; fileRef = B2312686C11B4DD18CF3D2DC /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/tridag.cpp */; };
-		2D1094905038436AB2C64293 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/cholesky.hpp */ = {isa = PBXBuildFile; fileRef = B63C0B665A454A79BA241B92 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/cholesky.hpp */; };
-		430DEE0078DB4C5B99595440 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/qrdcmp.hpp */ = {isa = PBXBuildFile; fileRef = 59D91E28A026412B99B61320 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/qrdcmp.hpp */; };
-		45B4F033AA3E4157B05E5258 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/svd.hpp */ = {isa = PBXBuildFile; fileRef = 29862F88EE42486387497F99 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/svd.hpp */; };
-		45E43E93D7C24C5095F389C2 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/ludcmp.hpp */ = {isa = PBXBuildFile; fileRef = 94DC26BE6FB9451B89718249 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/ludcmp.hpp */; };
-		47583F91B6D94EE0B7589D18 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/gaussj.hpp */ = {isa = PBXBuildFile; fileRef = 4C19DC3C816B40A3B17E35FB /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/gaussj.hpp */; };
-		657C8D0C44D747E3896AFFD1 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/banded.hpp */ = {isa = PBXBuildFile; fileRef = 69EAB53AC1D4450EA9321AA7 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/banded.hpp */; };
-		679D2EE61EB649AA9E48BE37 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/nr.cpp */ = {isa = PBXBuildFile; fileRef = 9B6E83D066144775A9C08F5D /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/nr.cpp */; };
-		705914126614406FA4E65828 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/svd.cpp */ = {isa = PBXBuildFile; fileRef = A2847BBD43BE423AA22B0717 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/svd.cpp */; };
-		7B6A6A2E1F2A4A1BBF23A461 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/qrdcmp.cpp */ = {isa = PBXBuildFile; fileRef = 459961576CB84084B35C0899 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/qrdcmp.cpp */; };
-		937C754E383C4C1D8D5FED7A /* /Users/bernardocohen/repos/numericalRecipes/cpp/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 03EB5D283ABB4CE0B191D685 /* /Users/bernardocohen/repos/numericalRecipes/cpp/CMakeLists.txt */; };
-		AB7C12E082D94CE082A40B65 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/nr.hpp */ = {isa = PBXBuildFile; fileRef = B67BF2F6D6B14405BBAC60D0 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/nr.hpp */; };
-		B7FB915397DA44D49BD7A023 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/vander.cpp */ = {isa = PBXBuildFile; fileRef = 687042F7AAD64533AE41A12A /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/vander.cpp */; };
-		CCFC69060A154F22939DCBF7 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/tridag.hpp */ = {isa = PBXBuildFile; fileRef = E2528BDC4E344BB4A76CC49E /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/tridag.hpp */; };
-		DBE97087BAE942088A357170 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/ludcmp.cpp */ = {isa = PBXBuildFile; fileRef = 39BA237156144FB68C9883B1 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/ludcmp.cpp */; };
-		FECC9FB0876F4711B5B497A2 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/banded.cpp */ = {isa = PBXBuildFile; fileRef = CAB3E688EB3244848D919B29 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/banded.cpp */; };
-		FF3B78CE1996444D8597879E /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/toeplz.cpp */ = {isa = PBXBuildFile; fileRef = EB7DF0B610FD4061BA102029 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/toeplz.cpp */; };
+		0CB2D0288DDE4052A5AFEEA8 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/tridag.hpp */ = {isa = PBXBuildFile; fileRef = 8DF23C31934249DCAE439DB7 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/tridag.hpp */; };
+		0F3694FE8BBC4927A6DC17EA /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/nr.hpp */ = {isa = PBXBuildFile; fileRef = 62502D5781564A2097AF4644 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/nr.hpp */; };
+		0F91A28BF37146378E73F142 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/vander.hpp */ = {isa = PBXBuildFile; fileRef = AF16D2997AAF40AB8E3998FE /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/vander.hpp */; };
+		11F50B94F3674E6BBD2DA3E4 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/toeplz.hpp */ = {isa = PBXBuildFile; fileRef = C53854496352412492C8F570 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/toeplz.hpp */; };
+		2DB7A3AD71E6449F8F905016 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/interp_1d.hpp */ = {isa = PBXBuildFile; fileRef = BDACA91580604EF9A8F9CFBD /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/interp_1d.hpp */; };
+		33D0CED80ECF48D9A5326FEF /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/ludcmp.cpp */ = {isa = PBXBuildFile; fileRef = F8920363530C43BE8DF88F66 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/ludcmp.cpp */; };
+		3E748421C60E42AD8DA13367 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/interp_linear.cpp */ = {isa = PBXBuildFile; fileRef = 3F53A553682B42C880CFCDC3 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/interp_linear.cpp */; };
+		4B59E8B1467E4270B3A45396 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/svd.cpp */ = {isa = PBXBuildFile; fileRef = 8B368CFEFBD8457CA274E05A /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/svd.cpp */; };
+		53029CDE78964EA5B1731A0A /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/qrdcmp.cpp */ = {isa = PBXBuildFile; fileRef = E371C371C0F54B59BFC78F2A /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/qrdcmp.cpp */; };
+		5637AA69803344F6894A57DA /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/cholesky.hpp */ = {isa = PBXBuildFile; fileRef = 00072D97DC064763862D7382 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/cholesky.hpp */; };
+		64EFEDA1C4744A3DAE832FA3 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/interp_linear.hpp */ = {isa = PBXBuildFile; fileRef = A138A751912C47B3B850EFD6 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/interp_linear.hpp */; };
+		7132A3C1F4E04D84858B2164 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/svd.hpp */ = {isa = PBXBuildFile; fileRef = C9FD54549E4B42B8B81C70E0 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/svd.hpp */; };
+		736D9D3CC85A4E7F91384E94 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/banded.hpp */ = {isa = PBXBuildFile; fileRef = 31B4A36678874E959405FE08 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/banded.hpp */; };
+		8290DA0CAF3C44698C1BF742 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/cholesky.cpp */ = {isa = PBXBuildFile; fileRef = DFBEA226CA0342EC9DF2AA4B /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/cholesky.cpp */; };
+		8B8DA642C6ED4EC39AF983D6 /* /Users/bernardocohen/repos/numericalRecipes/cpp/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9A566421BB0F4982874CFC42 /* /Users/bernardocohen/repos/numericalRecipes/cpp/CMakeLists.txt */; };
+		9055CEB1185749389FEBAD1E /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/tridag.cpp */ = {isa = PBXBuildFile; fileRef = 4407F503BC1141E39D7D6510 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/tridag.cpp */; };
+		B664BE31BECD4ABDB666FF97 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/toeplz.cpp */ = {isa = PBXBuildFile; fileRef = 9FF6771F37214E8E969885A9 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/toeplz.cpp */; };
+		BD81E94DAF9B4C77B4E619F0 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/vander.cpp */ = {isa = PBXBuildFile; fileRef = 55420CEDC80D451795D294B3 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/vander.cpp */; };
+		CB60193174A1446EBA850EA2 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/ludcmp.hpp */ = {isa = PBXBuildFile; fileRef = 7083F0908765434F96D556E0 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/ludcmp.hpp */; };
+		CE327A37383A46AC9C560213 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/interp_1d.cpp */ = {isa = PBXBuildFile; fileRef = 35B1EA9A8FC840BF915E6D2B /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/interp_1d.cpp */; };
+		D1CC8348B515423F9EDE7668 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/nr.cpp */ = {isa = PBXBuildFile; fileRef = C1936C7356C842BA91349FD2 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/nr.cpp */; };
+		EEFF917B27204158864A6CBE /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/gaussj.cpp */ = {isa = PBXBuildFile; fileRef = EE9BAA155F7B4186B7F17205 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/gaussj.cpp */; };
+		F1ABFC6EDDA84B2D96AA3DED /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/gaussj.hpp */ = {isa = PBXBuildFile; fileRef = 0F942FD7286C4136AC4364FB /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/gaussj.hpp */; };
+		F56A80D89C42474C99AA930E /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/qrdcmp.hpp */ = {isa = PBXBuildFile; fileRef = C81749E85ECC4C46AA8CE4FA /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/qrdcmp.hpp */; };
+		F79810FC6922455F9C6FD55D /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/banded.cpp */ = {isa = PBXBuildFile; fileRef = CC36F9A6211C4E0DBE1EF25C /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/banded.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		21BF75C0D6CC411D9869B482 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		4F727B7E627049CB92D7C949 /* Release */ = {
+		1A96078431F34DEB9A76FEE5 /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
-		51869B64D079489E9E7DFC90 /* RelWithDebInfo */ = {
+		A47E74AD6C1A481BAFDA31DF /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
-		EA24D9ED440242DB87CF5DAD /* MinSizeRel */ = {
+		B2D3BFC99EBC412D8FA9F0D9 /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = MinSizeRel;
 		};
+		F75CFB4B9C944FA29E5C54BA /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		55B09BDBFF4F464AA4691C9A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 598D6B172FC64D03A1CEF0E9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C6670F69049C4541A160A7B8;
-			remoteInfo = ZERO_CHECK;
-		};
-		8D049BAFA1274AAE9873DE67 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 598D6B172FC64D03A1CEF0E9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4EFD69B515774D9DB70AD6B4;
-			remoteInfo = ALL_BUILD;
-		};
-		D2D08E5BF7374F0F9B922F5B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 598D6B172FC64D03A1CEF0E9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C6670F69049C4541A160A7B8;
-			remoteInfo = ZERO_CHECK;
-		};
-		DB839ACF0D7B4307BD8F4246 /* PBXContainerItemProxy */ = {
+		27E69C15D9AB4A00B7119D3E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 598D6B172FC64D03A1CEF0E9 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 03814720AAB246B18264C3AC;
 			remoteInfo = numRec;
 		};
+		2BB7961145164E79AD11000A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 598D6B172FC64D03A1CEF0E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6670F69049C4541A160A7B8;
+			remoteInfo = ZERO_CHECK;
+		};
+		9223D77F450C4A7A8FD62778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 598D6B172FC64D03A1CEF0E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6670F69049C4541A160A7B8;
+			remoteInfo = ZERO_CHECK;
+		};
+		CC532F7B76894D38AFFCC4D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 598D6B172FC64D03A1CEF0E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EFD69B515774D9DB70AD6B4;
+			remoteInfo = ALL_BUILD;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03EB5D283ABB4CE0B191D685 /* /Users/bernardocohen/repos/numericalRecipes/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		200C57451DB24E5C906E1F88 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/cholesky.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cholesky.cpp; path = src/cholesky.cpp; sourceTree = SOURCE_ROOT; };
-		29862F88EE42486387497F99 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/svd.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = svd.hpp; path = include/numRec_bits/svd.hpp; sourceTree = SOURCE_ROOT; };
-		39BA237156144FB68C9883B1 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/ludcmp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ludcmp.cpp; path = src/ludcmp.cpp; sourceTree = SOURCE_ROOT; };
-		459961576CB84084B35C0899 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/qrdcmp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = qrdcmp.cpp; path = src/qrdcmp.cpp; sourceTree = SOURCE_ROOT; };
-		4C19DC3C816B40A3B17E35FB /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/gaussj.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = gaussj.hpp; path = include/numRec_bits/gaussj.hpp; sourceTree = SOURCE_ROOT; };
-		4F90E666951448BF916C122E /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/toeplz.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = toeplz.hpp; path = include/numRec_bits/toeplz.hpp; sourceTree = SOURCE_ROOT; };
-		59D91E28A026412B99B61320 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/qrdcmp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = qrdcmp.hpp; path = include/numRec_bits/qrdcmp.hpp; sourceTree = SOURCE_ROOT; };
-		687042F7AAD64533AE41A12A /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/vander.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vander.cpp; path = src/vander.cpp; sourceTree = SOURCE_ROOT; };
-		69EAB53AC1D4450EA9321AA7 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/banded.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = banded.hpp; path = include/numRec_bits/banded.hpp; sourceTree = SOURCE_ROOT; };
-		91E98DE777A447B9ACA73916 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/vander.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = vander.hpp; path = include/numRec_bits/vander.hpp; sourceTree = SOURCE_ROOT; };
-		93C49E3F6461452CB4A6E049 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/gaussj.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gaussj.cpp; path = src/gaussj.cpp; sourceTree = SOURCE_ROOT; };
-		94DC26BE6FB9451B89718249 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/ludcmp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ludcmp.hpp; path = include/numRec_bits/ludcmp.hpp; sourceTree = SOURCE_ROOT; };
-		9B6E83D066144775A9C08F5D /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/nr.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = nr.cpp; path = src/nr.cpp; sourceTree = SOURCE_ROOT; };
-		A18CB88624064FA9A78058BE /* numRec */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libnumRec.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2847BBD43BE423AA22B0717 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/svd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = svd.cpp; path = src/svd.cpp; sourceTree = SOURCE_ROOT; };
-		B2312686C11B4DD18CF3D2DC /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/tridag.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tridag.cpp; path = src/tridag.cpp; sourceTree = SOURCE_ROOT; };
-		B63C0B665A454A79BA241B92 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/cholesky.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cholesky.hpp; path = include/numRec_bits/cholesky.hpp; sourceTree = SOURCE_ROOT; };
-		B67BF2F6D6B14405BBAC60D0 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/nr.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = nr.hpp; path = include/numRec_bits/nr.hpp; sourceTree = SOURCE_ROOT; };
-		C13EF674DA054B588ED12022 /* /Users/bernardocohen/repos/numericalRecipes/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		CAB3E688EB3244848D919B29 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/banded.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = banded.cpp; path = src/banded.cpp; sourceTree = SOURCE_ROOT; };
-		E2528BDC4E344BB4A76CC49E /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/tridag.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = tridag.hpp; path = include/numRec_bits/tridag.hpp; sourceTree = SOURCE_ROOT; };
-		EB7DF0B610FD4061BA102029 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/toeplz.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = toeplz.cpp; path = src/toeplz.cpp; sourceTree = SOURCE_ROOT; };
+		00072D97DC064763862D7382 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/cholesky.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cholesky.hpp; path = include/numRec_bits/cholesky.hpp; sourceTree = SOURCE_ROOT; };
+		0F942FD7286C4136AC4364FB /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/gaussj.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = gaussj.hpp; path = include/numRec_bits/gaussj.hpp; sourceTree = SOURCE_ROOT; };
+		31B4A36678874E959405FE08 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/banded.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = banded.hpp; path = include/numRec_bits/banded.hpp; sourceTree = SOURCE_ROOT; };
+		35B1EA9A8FC840BF915E6D2B /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/interp_1d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = interp_1d.cpp; path = src/interp_1d.cpp; sourceTree = SOURCE_ROOT; };
+		3F53A553682B42C880CFCDC3 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/interp_linear.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = interp_linear.cpp; path = src/interp_linear.cpp; sourceTree = SOURCE_ROOT; };
+		4407F503BC1141E39D7D6510 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/tridag.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tridag.cpp; path = src/tridag.cpp; sourceTree = SOURCE_ROOT; };
+		55420CEDC80D451795D294B3 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/vander.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vander.cpp; path = src/vander.cpp; sourceTree = SOURCE_ROOT; };
+		62502D5781564A2097AF4644 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/nr.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = nr.hpp; path = include/numRec_bits/nr.hpp; sourceTree = SOURCE_ROOT; };
+		7083F0908765434F96D556E0 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/ludcmp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ludcmp.hpp; path = include/numRec_bits/ludcmp.hpp; sourceTree = SOURCE_ROOT; };
+		8B368CFEFBD8457CA274E05A /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/svd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = svd.cpp; path = src/svd.cpp; sourceTree = SOURCE_ROOT; };
+		8DF23C31934249DCAE439DB7 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/tridag.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = tridag.hpp; path = include/numRec_bits/tridag.hpp; sourceTree = SOURCE_ROOT; };
+		9A566421BB0F4982874CFC42 /* /Users/bernardocohen/repos/numericalRecipes/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9F30047D46E242ED9C9DF0B5 /* numRec */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libnumRec.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF6771F37214E8E969885A9 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/toeplz.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = toeplz.cpp; path = src/toeplz.cpp; sourceTree = SOURCE_ROOT; };
+		A138A751912C47B3B850EFD6 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/interp_linear.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = interp_linear.hpp; path = include/numRec_bits/interp_linear.hpp; sourceTree = SOURCE_ROOT; };
+		AF16D2997AAF40AB8E3998FE /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/vander.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = vander.hpp; path = include/numRec_bits/vander.hpp; sourceTree = SOURCE_ROOT; };
+		BDACA91580604EF9A8F9CFBD /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/interp_1d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = interp_1d.hpp; path = include/numRec_bits/interp_1d.hpp; sourceTree = SOURCE_ROOT; };
+		C1936C7356C842BA91349FD2 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/nr.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = nr.cpp; path = src/nr.cpp; sourceTree = SOURCE_ROOT; };
+		C53854496352412492C8F570 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/toeplz.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = toeplz.hpp; path = include/numRec_bits/toeplz.hpp; sourceTree = SOURCE_ROOT; };
+		C81749E85ECC4C46AA8CE4FA /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/qrdcmp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = qrdcmp.hpp; path = include/numRec_bits/qrdcmp.hpp; sourceTree = SOURCE_ROOT; };
+		C9FD54549E4B42B8B81C70E0 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/svd.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = svd.hpp; path = include/numRec_bits/svd.hpp; sourceTree = SOURCE_ROOT; };
+		CC36F9A6211C4E0DBE1EF25C /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/banded.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = banded.cpp; path = src/banded.cpp; sourceTree = SOURCE_ROOT; };
+		DFBEA226CA0342EC9DF2AA4B /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/cholesky.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cholesky.cpp; path = src/cholesky.cpp; sourceTree = SOURCE_ROOT; };
+		E0EDD45884CB4839B3F60DC1 /* /Users/bernardocohen/repos/numericalRecipes/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E371C371C0F54B59BFC78F2A /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/qrdcmp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = qrdcmp.cpp; path = src/qrdcmp.cpp; sourceTree = SOURCE_ROOT; };
+		EE9BAA155F7B4186B7F17205 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/gaussj.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gaussj.cpp; path = src/gaussj.cpp; sourceTree = SOURCE_ROOT; };
+		F8920363530C43BE8DF88F66 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/ludcmp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ludcmp.cpp; path = src/ludcmp.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9FDF279CAB294C5CADA7A150 /* Frameworks */ = {
+		67CD0CA0B4EA4C6DA1101100 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -168,97 +176,101 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		058E8CF16A9544DD9A5EFCD3 /* numRec */ = {
+		0F9932C6661C407BA9BAF20D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3BE11AAA306945B69715B805 /* include */,
-				A41AB922C6EA486E84EDC6D1 /* src */,
-				03EB5D283ABB4CE0B191D685 /* /Users/bernardocohen/repos/numericalRecipes/cpp/CMakeLists.txt */,
-			);
-			name = numRec;
-			sourceTree = "<group>";
-		};
-		251B3873A8394FA6A9307157 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				B1F42D49A63A434CBB159E6D /* CMake Rules */,
-				C13EF674DA054B588ED12022 /* /Users/bernardocohen/repos/numericalRecipes/cpp/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		3BE11AAA306945B69715B805 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				E2DD0283E2EE48D9A1E1299F /* numRec_bits */,
-			);
-			name = include;
-			sourceTree = "<group>";
-		};
-		5CC31993C26540C2BEF34FD5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6492E431525842A4ABB043ED = {
-			isa = PBXGroup;
-			children = (
-				058E8CF16A9544DD9A5EFCD3 /* numRec */,
-				251B3873A8394FA6A9307157 /* ALL_BUILD */,
-				96B8E7596C9E4EB985FA24BD /* Products */,
-				5CC31993C26540C2BEF34FD5 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		96B8E7596C9E4EB985FA24BD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A18CB88624064FA9A78058BE /* numRec */,
+				9F30047D46E242ED9C9DF0B5 /* numRec */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A41AB922C6EA486E84EDC6D1 /* src */ = {
+		1A70AEA8A57F490A9EEB66B0 = {
 			isa = PBXGroup;
 			children = (
-				CAB3E688EB3244848D919B29 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/banded.cpp */,
-				200C57451DB24E5C906E1F88 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/cholesky.cpp */,
-				93C49E3F6461452CB4A6E049 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/gaussj.cpp */,
-				39BA237156144FB68C9883B1 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/ludcmp.cpp */,
-				9B6E83D066144775A9C08F5D /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/nr.cpp */,
-				459961576CB84084B35C0899 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/qrdcmp.cpp */,
-				A2847BBD43BE423AA22B0717 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/svd.cpp */,
-				EB7DF0B610FD4061BA102029 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/toeplz.cpp */,
-				B2312686C11B4DD18CF3D2DC /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/tridag.cpp */,
-				687042F7AAD64533AE41A12A /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/vander.cpp */,
+				991C61530E8C47A18C51346A /* numRec */,
+				D8478AF4328840E28A945FF3 /* ALL_BUILD */,
+				0F9932C6661C407BA9BAF20D /* Products */,
+				288AE317DA15449A95DBEF95 /* Frameworks */,
 			);
-			name = src;
 			sourceTree = "<group>";
 		};
-		B1F42D49A63A434CBB159E6D /* CMake Rules */ = {
+		1C5803FDF58C4C74A2ED7A0F /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		E2DD0283E2EE48D9A1E1299F /* numRec_bits */ = {
+		2635B3F42D514D2F9BF739A3 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				69EAB53AC1D4450EA9321AA7 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/banded.hpp */,
-				B63C0B665A454A79BA241B92 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/cholesky.hpp */,
-				4C19DC3C816B40A3B17E35FB /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/gaussj.hpp */,
-				94DC26BE6FB9451B89718249 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/ludcmp.hpp */,
-				B67BF2F6D6B14405BBAC60D0 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/nr.hpp */,
-				59D91E28A026412B99B61320 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/qrdcmp.hpp */,
-				29862F88EE42486387497F99 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/svd.hpp */,
-				4F90E666951448BF916C122E /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/toeplz.hpp */,
-				E2528BDC4E344BB4A76CC49E /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/tridag.hpp */,
-				91E98DE777A447B9ACA73916 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/vander.hpp */,
+				5A109A950CD249A6BF64D571 /* numRec_bits */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		288AE317DA15449A95DBEF95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A109A950CD249A6BF64D571 /* numRec_bits */ = {
+			isa = PBXGroup;
+			children = (
+				31B4A36678874E959405FE08 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/banded.hpp */,
+				00072D97DC064763862D7382 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/cholesky.hpp */,
+				0F942FD7286C4136AC4364FB /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/gaussj.hpp */,
+				BDACA91580604EF9A8F9CFBD /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/interp_1d.hpp */,
+				A138A751912C47B3B850EFD6 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/interp_linear.hpp */,
+				7083F0908765434F96D556E0 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/ludcmp.hpp */,
+				62502D5781564A2097AF4644 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/nr.hpp */,
+				C81749E85ECC4C46AA8CE4FA /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/qrdcmp.hpp */,
+				C9FD54549E4B42B8B81C70E0 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/svd.hpp */,
+				C53854496352412492C8F570 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/toeplz.hpp */,
+				8DF23C31934249DCAE439DB7 /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/tridag.hpp */,
+				AF16D2997AAF40AB8E3998FE /* /Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits/vander.hpp */,
 			);
 			name = numRec_bits;
+			sourceTree = "<group>";
+		};
+		991C61530E8C47A18C51346A /* numRec */ = {
+			isa = PBXGroup;
+			children = (
+				2635B3F42D514D2F9BF739A3 /* include */,
+				D56CE6052B0245CC86148026 /* src */,
+				9A566421BB0F4982874CFC42 /* /Users/bernardocohen/repos/numericalRecipes/cpp/CMakeLists.txt */,
+			);
+			name = numRec;
+			sourceTree = "<group>";
+		};
+		D56CE6052B0245CC86148026 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				CC36F9A6211C4E0DBE1EF25C /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/banded.cpp */,
+				DFBEA226CA0342EC9DF2AA4B /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/cholesky.cpp */,
+				EE9BAA155F7B4186B7F17205 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/gaussj.cpp */,
+				35B1EA9A8FC840BF915E6D2B /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/interp_1d.cpp */,
+				3F53A553682B42C880CFCDC3 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/interp_linear.cpp */,
+				F8920363530C43BE8DF88F66 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/ludcmp.cpp */,
+				C1936C7356C842BA91349FD2 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/nr.cpp */,
+				E371C371C0F54B59BFC78F2A /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/qrdcmp.cpp */,
+				8B368CFEFBD8457CA274E05A /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/svd.cpp */,
+				9FF6771F37214E8E969885A9 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/toeplz.cpp */,
+				4407F503BC1141E39D7D6510 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/tridag.cpp */,
+				55420CEDC80D451795D294B3 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/vander.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		D8478AF4328840E28A945FF3 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				1C5803FDF58C4C74A2ED7A0F /* CMake Rules */,
+				E0EDD45884CB4839B3F60DC1 /* /Users/bernardocohen/repos/numericalRecipes/cpp/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,20 +278,20 @@
 /* Begin PBXNativeTarget section */
 		03814720AAB246B18264C3AC /* numRec */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC8E9382095248B792F96D1A /* Build configuration list for PBXNativeTarget "numRec" */;
+			buildConfigurationList = 0D52562FDF514B7AB82520A5 /* Build configuration list for PBXNativeTarget "numRec" */;
 			buildPhases = (
-				7737C4DFDCFD4F69A9F52A00 /* Sources */,
-				9FDF279CAB294C5CADA7A150 /* Frameworks */,
+				C48AAFFA9CE9439BBC0D4C8F /* Sources */,
+				67CD0CA0B4EA4C6DA1101100 /* Frameworks */,
 				C8D0EC84B8CA52C3382C43CD /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				805AD506BCB6475BB81ECEAB /* PBXTargetDependency */,
+				2DDE872227EB4E86A44FFF9D /* PBXTargetDependency */,
 			);
 			name = numRec;
 			productName = numRec;
-			productReference = A18CB88624064FA9A78058BE /* numRec */;
+			productReference = 9F30047D46E242ED9C9DF0B5 /* numRec */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
@@ -291,18 +303,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1250;
 			};
-			buildConfigurationList = 7FD6B3121BF04DDB8B6A9EF7 /* Build configuration list for PBXProject "numRec" */;
+			buildConfigurationList = 18C4F884B4D04EFFA1FE3FC0 /* Build configuration list for PBXProject "numRec" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				21BF75C0D6CC411D9869B482 /* Debug */,
-				4F727B7E627049CB92D7C949 /* Release */,
-				EA24D9ED440242DB87CF5DAD /* MinSizeRel */,
-				51869B64D079489E9E7DFC90 /* RelWithDebInfo */,
+				F75CFB4B9C944FA29E5C54BA /* Debug */,
+				1A96078431F34DEB9A76FEE5 /* Release */,
+				B2D3BFC99EBC412D8FA9F0D9 /* MinSizeRel */,
+				A47E74AD6C1A481BAFDA31DF /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 6492E431525842A4ABB043ED;
+			mainGroup = 1A70AEA8A57F490A9EEB66B0;
 			projectDirPath = ../;
 			projectRoot = "";
 			targets = (
@@ -491,50 +503,52 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7737C4DFDCFD4F69A9F52A00 /* Sources */ = {
+		C48AAFFA9CE9439BBC0D4C8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FECC9FB0876F4711B5B497A2 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/banded.cpp */,
-				170502295A1D41C38D7529C9 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/cholesky.cpp */,
-				1542DCB806034E83AD06EED8 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/gaussj.cpp */,
-				DBE97087BAE942088A357170 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/ludcmp.cpp */,
-				679D2EE61EB649AA9E48BE37 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/nr.cpp */,
-				7B6A6A2E1F2A4A1BBF23A461 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/qrdcmp.cpp */,
-				705914126614406FA4E65828 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/svd.cpp */,
-				FF3B78CE1996444D8597879E /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/toeplz.cpp */,
-				28FAF122A6B148B09FC525A7 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/tridag.cpp */,
-				B7FB915397DA44D49BD7A023 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/vander.cpp */,
+				F79810FC6922455F9C6FD55D /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/banded.cpp */,
+				8290DA0CAF3C44698C1BF742 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/cholesky.cpp */,
+				EEFF917B27204158864A6CBE /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/gaussj.cpp */,
+				CE327A37383A46AC9C560213 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/interp_1d.cpp */,
+				3E748421C60E42AD8DA13367 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/interp_linear.cpp */,
+				33D0CED80ECF48D9A5326FEF /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/ludcmp.cpp */,
+				D1CC8348B515423F9EDE7668 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/nr.cpp */,
+				53029CDE78964EA5B1731A0A /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/qrdcmp.cpp */,
+				4B59E8B1467E4270B3A45396 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/svd.cpp */,
+				B664BE31BECD4ABDB666FF97 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/toeplz.cpp */,
+				9055CEB1185749389FEBAD1E /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/tridag.cpp */,
+				BD81E94DAF9B4C77B4E619F0 /* /Users/bernardocohen/repos/numericalRecipes/cpp/src/vander.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		61A42A8CA37242838E9B1898 /* PBXTargetDependency */ = {
+		2DDE872227EB4E86A44FFF9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6670F69049C4541A160A7B8 /* ZERO_CHECK */;
+			targetProxy = 2BB7961145164E79AD11000A /* PBXContainerItemProxy */;
+		};
+		8C9DAB36189045449F61120A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6670F69049C4541A160A7B8 /* ZERO_CHECK */;
+			targetProxy = 9223D77F450C4A7A8FD62778 /* PBXContainerItemProxy */;
+		};
+		D2FB08B3569E44378F72883D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 03814720AAB246B18264C3AC /* numRec */;
-			targetProxy = DB839ACF0D7B4307BD8F4246 /* PBXContainerItemProxy */;
+			targetProxy = 27E69C15D9AB4A00B7119D3E /* PBXContainerItemProxy */;
 		};
-		805AD506BCB6475BB81ECEAB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C6670F69049C4541A160A7B8 /* ZERO_CHECK */;
-			targetProxy = D2D08E5BF7374F0F9B922F5B /* PBXContainerItemProxy */;
-		};
-		A538F4EE9E354005AE3F9CE8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C6670F69049C4541A160A7B8 /* ZERO_CHECK */;
-			targetProxy = 55B09BDBFF4F464AA4691C9A /* PBXContainerItemProxy */;
-		};
-		EC2A0177A5764629BADD8BED /* PBXTargetDependency */ = {
+		F990423A20344B5283481493 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4EFD69B515774D9DB70AD6B4 /* ALL_BUILD */;
-			targetProxy = 8D049BAFA1274AAE9873DE67 /* PBXContainerItemProxy */;
+			targetProxy = CC532F7B76894D38AFFCC4D1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1039C8A499C54937AB7605EF /* Release */ = {
+		15FEC28DC0A64CAE9C2FBAB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -546,7 +560,7 @@ fi
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = ("");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
+				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/bernardocohen/repos/numericalRecipes/cpp/Xcode;
 				USE_HEADERMAP = NO;
@@ -554,61 +568,7 @@ fi
 			};
 			name = Release;
 		};
-		11C50456DC2542928F395CA1 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = "";
-				DYLIB_CURRENT_VERSION = "";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .dylib;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",numRec_EXPORTS);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits,"$(inherited)");
-				INSTALL_PATH = "@rpath";
-				LIBRARY_STYLE = DYNAMIC;
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC '-std=c++17' ";
-				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = numRec;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/numericalRecipes/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		14EE3ABA3D904B4CBE5B7CF1 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = "";
-				DYLIB_CURRENT_VERSION = "";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .dylib;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",numRec_EXPORTS);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits,"$(inherited)");
-				INSTALL_PATH = "@rpath";
-				LIBRARY_STYLE = DYNAMIC;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=c++17' ";
-				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = numRec;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/numericalRecipes/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		18123B23CB7A49DB9B6F4D02 /* MinSizeRel */ = {
+		1878D381D52747328E502678 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
@@ -616,9 +576,9 @@ fi
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
 				SYMROOT = /Users/bernardocohen/repos/numericalRecipes/cpp/Xcode/build;
 			};
-			name = MinSizeRel;
+			name = Release;
 		};
-		27C764AD52CC4BF7B2BEDB4E /* RelWithDebInfo */ = {
+		1923875869E049759FAB9403 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -631,83 +591,6 @@ fi
 				OTHER_LDFLAGS = ("");
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/numericalRecipes/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		2BD6F361AFC7497384FB2612 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/numericalRecipes/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		33F32C8C760A439FB26732C0 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = /Users/bernardocohen/repos/numericalRecipes/cpp/Xcode/build;
-			};
-			name = RelWithDebInfo;
-		};
-		34FCFDA877E6411AA35C883F /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/numericalRecipes/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		67A5AE2C65EA407EBE8EFE38 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = "";
-				DYLIB_CURRENT_VERSION = "";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .dylib;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",numRec_EXPORTS);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits,"$(inherited)");
-				INSTALL_PATH = "@rpath";
-				LIBRARY_STYLE = DYNAMIC;
-				OTHER_CPLUSPLUSFLAGS = "   -fPIC '-std=c++17' ";
-				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = numRec;
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/bernardocohen/repos/numericalRecipes/cpp/Xcode;
 				USE_HEADERMAP = NO;
@@ -715,7 +598,7 @@ fi
 			};
 			name = Debug;
 		};
-		6BA548E06FF24959BBA95345 /* Debug */ = {
+		1EFCF3E44F3C4CBE939430FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -735,7 +618,67 @@ fi
 			};
 			name = Debug;
 		};
-		7054F3993551486DBAFB565E /* RelWithDebInfo */ = {
+		23DE340EE88442E7916605F9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/numericalRecipes/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2CF15124903543C0A4A2A475 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/numericalRecipes/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		372B06FBF36A4B58B25084FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/bernardocohen/repos/numericalRecipes/cpp/Xcode/build;
+			};
+			name = Debug;
+		};
+		4EA2D4FD2E91494CAC31292C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/bernardocohen/repos/numericalRecipes/cpp/Xcode/build;
+			};
+			name = MinSizeRel;
+		};
+		588C187CDCE44EC0B7DAE8B5 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -755,57 +698,7 @@ fi
 			};
 			name = RelWithDebInfo;
 		};
-		7EAD23DE5E354469BCD25120 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/numericalRecipes/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		83012B72E0E94E169C94E229 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = /Users/bernardocohen/repos/numericalRecipes/cpp/Xcode/build;
-			};
-			name = Release;
-		};
-		8F43482622B74D0EB5F9A1F0 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/numericalRecipes/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		936915B79B5440979F10E756 /* MinSizeRel */ = {
+		591B4D0BCC2240CA99FF0C40 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -823,9 +716,9 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = MinSizeRel;
+			name = Release;
 		};
-		9DEB02D731D74E12845CBB51 /* Release */ = {
+		6B1A74FADF7944A68F8C3CBA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -852,27 +745,7 @@ fi
 			};
 			name = Release;
 		};
-		AB58AD850A394D8AAB7C619F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/numericalRecipes/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		B66704C62A66435C8D305123 /* Debug */ = {
+		86ABE0BED69744CCBB6238C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -890,9 +763,150 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
+			name = Release;
+		};
+		8BADB94B01A947A0BAFBB726 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",numRec_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits,"$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=c++17' ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = numRec;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/numericalRecipes/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		92267EDFAF274FFD894A6E21 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",numRec_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits,"$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC '-std=c++17' ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = numRec;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/numericalRecipes/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AE9FDE7D70E0490796B42134 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/numericalRecipes/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BB21F983808B43B3ACF1B960 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/numericalRecipes/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C1F09C57E9EC4A51B0AD4B85 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/numericalRecipes/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E91FBD90B46A469CB816EBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",numRec_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/numericalRecipes/cpp/include/numRec_bits,"$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC '-std=c++17' ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = numRec;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/numericalRecipes/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
 			name = Debug;
 		};
-		D800B61E61594E1D9264DBF4 /* Release */ = {
+		E9AFD2E101A24AA98B3125B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -910,9 +924,9 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Release;
+			name = Debug;
 		};
-		DFB34CC155AF4E5BA75478D5 /* Debug */ = {
+		F63A0E5A643943FA93CF2D2B /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
@@ -920,62 +934,62 @@ fi
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
 				SYMROOT = /Users/bernardocohen/repos/numericalRecipes/cpp/Xcode/build;
 			};
-			name = Debug;
+			name = RelWithDebInfo;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2497B417388A49B7B9A2E9DC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		0D52562FDF514B7AB82520A5 /* Build configuration list for PBXNativeTarget "numRec" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B66704C62A66435C8D305123 /* Debug */,
-				7EAD23DE5E354469BCD25120 /* Release */,
-				34FCFDA877E6411AA35C883F /* MinSizeRel */,
-				27C764AD52CC4BF7B2BEDB4E /* RelWithDebInfo */,
+				E91FBD90B46A469CB816EBFD /* Debug */,
+				6B1A74FADF7944A68F8C3CBA /* Release */,
+				8BADB94B01A947A0BAFBB726 /* MinSizeRel */,
+				92267EDFAF274FFD894A6E21 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		62FF9B5C850F480F9FA8552A /* Build configuration list for PBXAggregateTarget "install" */ = {
+		18C4F884B4D04EFFA1FE3FC0 /* Build configuration list for PBXProject "numRec" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6BA548E06FF24959BBA95345 /* Debug */,
-				1039C8A499C54937AB7605EF /* Release */,
-				936915B79B5440979F10E756 /* MinSizeRel */,
-				2BD6F361AFC7497384FB2612 /* RelWithDebInfo */,
+				372B06FBF36A4B58B25084FF /* Debug */,
+				1878D381D52747328E502678 /* Release */,
+				4EA2D4FD2E91494CAC31292C /* MinSizeRel */,
+				F63A0E5A643943FA93CF2D2B /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		6738EB431C1C46729C3B161B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		B8452D757ACF429198E44C6C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB58AD850A394D8AAB7C619F /* Debug */,
-				D800B61E61594E1D9264DBF4 /* Release */,
-				8F43482622B74D0EB5F9A1F0 /* MinSizeRel */,
-				7054F3993551486DBAFB565E /* RelWithDebInfo */,
+				1923875869E049759FAB9403 /* Debug */,
+				86ABE0BED69744CCBB6238C0 /* Release */,
+				23DE340EE88442E7916605F9 /* MinSizeRel */,
+				C1F09C57E9EC4A51B0AD4B85 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		7FD6B3121BF04DDB8B6A9EF7 /* Build configuration list for PBXProject "numRec" */ = {
+		CC003C2357C54202862EBD0F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DFB34CC155AF4E5BA75478D5 /* Debug */,
-				83012B72E0E94E169C94E229 /* Release */,
-				18123B23CB7A49DB9B6F4D02 /* MinSizeRel */,
-				33F32C8C760A439FB26732C0 /* RelWithDebInfo */,
+				E9AFD2E101A24AA98B3125B6 /* Debug */,
+				15FEC28DC0A64CAE9C2FBAB3 /* Release */,
+				2CF15124903543C0A4A2A475 /* MinSizeRel */,
+				588C187CDCE44EC0B7DAE8B5 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		CC8E9382095248B792F96D1A /* Build configuration list for PBXNativeTarget "numRec" */ = {
+		CCA2CF252B3E4BA1BA7C5584 /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67A5AE2C65EA407EBE8EFE38 /* Debug */,
-				9DEB02D731D74E12845CBB51 /* Release */,
-				14EE3ABA3D904B4CBE5B7CF1 /* MinSizeRel */,
-				11C50456DC2542928F395CA1 /* RelWithDebInfo */,
+				1EFCF3E44F3C4CBE939430FC /* Debug */,
+				591B4D0BCC2240CA99FF0C40 /* Release */,
+				AE9FDE7D70E0490796B42134 /* MinSizeRel */,
+				BB21F983808B43B3ACF1B960 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

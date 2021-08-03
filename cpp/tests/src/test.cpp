@@ -668,6 +668,29 @@ int testingQR(){
 }
 
 
+int testingLinearInterp(){
+    
+    double a[9] = {1,2,3,4,5,6,7,8,9};
+    double b[9] = {1,4,3,16,25,36,49,64,81};
+    
+    vecDoub x(9, a);
+    vecDoub y(9, b);
+    
+    Linear_interp myfunc(x,y);
+    
+    std::cout<<myfunc.rawinterp(3, 3.2)<<std::endl;
+    double z = 5.1;
+    double z1{};
+    z1 = myfunc.interp(z);
+    std::cout<<z1<<std::endl;
+    
+    
+    
+    
+    
+    return 0;
+}
+
 int main() {
 
     std::cout<<"Here we are :)"<<std::endl;
@@ -682,7 +705,8 @@ int main() {
     //testingToeplitz();
 
     //testingCholseky();
-    testingQR();
+    //testingQR();
+    testingLinearInterp();
 
     return 0;
 }

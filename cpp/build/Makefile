@@ -246,6 +246,54 @@ src/gaussj.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/numRec.dir/build.make CMakeFiles/numRec.dir/src/gaussj.cpp.s
 .PHONY : src/gaussj.cpp.s
 
+src/interp_1d.o: src/interp_1d.cpp.o
+.PHONY : src/interp_1d.o
+
+# target to build an object file
+src/interp_1d.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numRec.dir/build.make CMakeFiles/numRec.dir/src/interp_1d.cpp.o
+.PHONY : src/interp_1d.cpp.o
+
+src/interp_1d.i: src/interp_1d.cpp.i
+.PHONY : src/interp_1d.i
+
+# target to preprocess a source file
+src/interp_1d.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numRec.dir/build.make CMakeFiles/numRec.dir/src/interp_1d.cpp.i
+.PHONY : src/interp_1d.cpp.i
+
+src/interp_1d.s: src/interp_1d.cpp.s
+.PHONY : src/interp_1d.s
+
+# target to generate assembly for a file
+src/interp_1d.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numRec.dir/build.make CMakeFiles/numRec.dir/src/interp_1d.cpp.s
+.PHONY : src/interp_1d.cpp.s
+
+src/interp_linear.o: src/interp_linear.cpp.o
+.PHONY : src/interp_linear.o
+
+# target to build an object file
+src/interp_linear.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numRec.dir/build.make CMakeFiles/numRec.dir/src/interp_linear.cpp.o
+.PHONY : src/interp_linear.cpp.o
+
+src/interp_linear.i: src/interp_linear.cpp.i
+.PHONY : src/interp_linear.i
+
+# target to preprocess a source file
+src/interp_linear.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numRec.dir/build.make CMakeFiles/numRec.dir/src/interp_linear.cpp.i
+.PHONY : src/interp_linear.cpp.i
+
+src/interp_linear.s: src/interp_linear.cpp.s
+.PHONY : src/interp_linear.s
+
+# target to generate assembly for a file
+src/interp_linear.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numRec.dir/build.make CMakeFiles/numRec.dir/src/interp_linear.cpp.s
+.PHONY : src/interp_linear.cpp.s
+
 src/ludcmp.o: src/ludcmp.cpp.o
 .PHONY : src/ludcmp.o
 
@@ -436,6 +484,12 @@ help:
 	@echo "... src/gaussj.o"
 	@echo "... src/gaussj.i"
 	@echo "... src/gaussj.s"
+	@echo "... src/interp_1d.o"
+	@echo "... src/interp_1d.i"
+	@echo "... src/interp_1d.s"
+	@echo "... src/interp_linear.o"
+	@echo "... src/interp_linear.i"
+	@echo "... src/interp_linear.s"
 	@echo "... src/ludcmp.o"
 	@echo "... src/ludcmp.i"
 	@echo "... src/ludcmp.s"

@@ -182,6 +182,9 @@ CMakeFiles/test.dir/src/test.cpp.o: \
   /usr/local/include/numRec_bits/toeplz.hpp \
   /usr/local/include/numRec_bits/cholesky.hpp \
   /usr/local/include/numRec_bits/qrdcmp.hpp \
+  /usr/local/include/numRec_bits/interp_1d.hpp \
+  /usr/local/include/numRec_bits/interp_linear.hpp \
+  /usr/local/include/numRec_bits/./interp_1d.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ios \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__locale \

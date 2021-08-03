@@ -209,6 +209,34 @@ CMakeFiles/numRec.dir/src/qrdcmp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/numRec.dir/src/qrdcmp.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/numericalRecipes/cpp/src/qrdcmp.cpp -o CMakeFiles/numRec.dir/src/qrdcmp.cpp.s
 
+CMakeFiles/numRec.dir/src/interp_1d.cpp.o: CMakeFiles/numRec.dir/flags.make
+CMakeFiles/numRec.dir/src/interp_1d.cpp.o: ../src/interp_1d.cpp
+CMakeFiles/numRec.dir/src/interp_1d.cpp.o: CMakeFiles/numRec.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/numericalRecipes/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/numRec.dir/src/interp_1d.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/numRec.dir/src/interp_1d.cpp.o -MF CMakeFiles/numRec.dir/src/interp_1d.cpp.o.d -o CMakeFiles/numRec.dir/src/interp_1d.cpp.o -c /Users/bernardocohen/repos/numericalRecipes/cpp/src/interp_1d.cpp
+
+CMakeFiles/numRec.dir/src/interp_1d.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/numRec.dir/src/interp_1d.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bernardocohen/repos/numericalRecipes/cpp/src/interp_1d.cpp > CMakeFiles/numRec.dir/src/interp_1d.cpp.i
+
+CMakeFiles/numRec.dir/src/interp_1d.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/numRec.dir/src/interp_1d.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/numericalRecipes/cpp/src/interp_1d.cpp -o CMakeFiles/numRec.dir/src/interp_1d.cpp.s
+
+CMakeFiles/numRec.dir/src/interp_linear.cpp.o: CMakeFiles/numRec.dir/flags.make
+CMakeFiles/numRec.dir/src/interp_linear.cpp.o: ../src/interp_linear.cpp
+CMakeFiles/numRec.dir/src/interp_linear.cpp.o: CMakeFiles/numRec.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/numericalRecipes/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/numRec.dir/src/interp_linear.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/numRec.dir/src/interp_linear.cpp.o -MF CMakeFiles/numRec.dir/src/interp_linear.cpp.o.d -o CMakeFiles/numRec.dir/src/interp_linear.cpp.o -c /Users/bernardocohen/repos/numericalRecipes/cpp/src/interp_linear.cpp
+
+CMakeFiles/numRec.dir/src/interp_linear.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/numRec.dir/src/interp_linear.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bernardocohen/repos/numericalRecipes/cpp/src/interp_linear.cpp > CMakeFiles/numRec.dir/src/interp_linear.cpp.i
+
+CMakeFiles/numRec.dir/src/interp_linear.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/numRec.dir/src/interp_linear.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/numericalRecipes/cpp/src/interp_linear.cpp -o CMakeFiles/numRec.dir/src/interp_linear.cpp.s
+
 # Object files for target numRec
 numRec_OBJECTS = \
 "CMakeFiles/numRec.dir/src/nr.cpp.o" \
@@ -220,7 +248,9 @@ numRec_OBJECTS = \
 "CMakeFiles/numRec.dir/src/vander.cpp.o" \
 "CMakeFiles/numRec.dir/src/toeplz.cpp.o" \
 "CMakeFiles/numRec.dir/src/cholesky.cpp.o" \
-"CMakeFiles/numRec.dir/src/qrdcmp.cpp.o"
+"CMakeFiles/numRec.dir/src/qrdcmp.cpp.o" \
+"CMakeFiles/numRec.dir/src/interp_1d.cpp.o" \
+"CMakeFiles/numRec.dir/src/interp_linear.cpp.o"
 
 # External object files for target numRec
 numRec_EXTERNAL_OBJECTS =
@@ -235,9 +265,11 @@ libnumRec.dylib: CMakeFiles/numRec.dir/src/vander.cpp.o
 libnumRec.dylib: CMakeFiles/numRec.dir/src/toeplz.cpp.o
 libnumRec.dylib: CMakeFiles/numRec.dir/src/cholesky.cpp.o
 libnumRec.dylib: CMakeFiles/numRec.dir/src/qrdcmp.cpp.o
+libnumRec.dylib: CMakeFiles/numRec.dir/src/interp_1d.cpp.o
+libnumRec.dylib: CMakeFiles/numRec.dir/src/interp_linear.cpp.o
 libnumRec.dylib: CMakeFiles/numRec.dir/build.make
 libnumRec.dylib: CMakeFiles/numRec.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bernardocohen/repos/numericalRecipes/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX shared library libnumRec.dylib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bernardocohen/repos/numericalRecipes/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX shared library libnumRec.dylib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/numRec.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
