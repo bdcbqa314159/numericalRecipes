@@ -9,6 +9,8 @@
 #include "../cpp/include/numRec_bits/cholesky.hpp"
 #include "../cpp/include/numRec_bits/qrdcmp.hpp"
 
+#include "../cpp/include/numRec_bits/interp_linear.hpp"
+
 #include <pybind11/pybind11.h>
 #include <pybind11/stl.h>
 #include <pybind11/numpy.h>
@@ -298,3 +300,14 @@ void init_QR(py::module &m){
 		.def("rotate", &QRdcmp::rotate);
 
 }
+
+void init_interp_linear(py::module &m){
+    
+    py::class_<Linear_interp>(m, "Linear_interp")
+        .def(py::init<vecDoub_I &, vecDoub_I &>())
+        .def("rawinterp", &Linear_interp::rawinterp)
+        .def("inter", &Linear_interp::interp);
+}
+
+
+

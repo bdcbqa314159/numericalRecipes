@@ -16,6 +16,7 @@ void init_vander(py::module &);
 void init_toeplz(py::module &);
 void init_cholesky(py::module &);
 void init_QR(py::module &);
+void init_interp_linear(py::module &);
 
 namespace nr {
 
@@ -37,6 +38,7 @@ PYBIND11_MODULE(numRec, m) {
 	init_toeplz(m);
 	init_cholesky(m);
 	init_QR(m);
+    init_interp_linear(m);
 
 	}
 

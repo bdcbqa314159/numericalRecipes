@@ -246,6 +246,54 @@ cpp/src/gaussj.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/numRec.dir/build.make CMakeFiles/numRec.dir/cpp/src/gaussj.cpp.s
 .PHONY : cpp/src/gaussj.cpp.s
 
+cpp/src/interp_1d.o: cpp/src/interp_1d.cpp.o
+.PHONY : cpp/src/interp_1d.o
+
+# target to build an object file
+cpp/src/interp_1d.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numRec.dir/build.make CMakeFiles/numRec.dir/cpp/src/interp_1d.cpp.o
+.PHONY : cpp/src/interp_1d.cpp.o
+
+cpp/src/interp_1d.i: cpp/src/interp_1d.cpp.i
+.PHONY : cpp/src/interp_1d.i
+
+# target to preprocess a source file
+cpp/src/interp_1d.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numRec.dir/build.make CMakeFiles/numRec.dir/cpp/src/interp_1d.cpp.i
+.PHONY : cpp/src/interp_1d.cpp.i
+
+cpp/src/interp_1d.s: cpp/src/interp_1d.cpp.s
+.PHONY : cpp/src/interp_1d.s
+
+# target to generate assembly for a file
+cpp/src/interp_1d.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numRec.dir/build.make CMakeFiles/numRec.dir/cpp/src/interp_1d.cpp.s
+.PHONY : cpp/src/interp_1d.cpp.s
+
+cpp/src/interp_linear.o: cpp/src/interp_linear.cpp.o
+.PHONY : cpp/src/interp_linear.o
+
+# target to build an object file
+cpp/src/interp_linear.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numRec.dir/build.make CMakeFiles/numRec.dir/cpp/src/interp_linear.cpp.o
+.PHONY : cpp/src/interp_linear.cpp.o
+
+cpp/src/interp_linear.i: cpp/src/interp_linear.cpp.i
+.PHONY : cpp/src/interp_linear.i
+
+# target to preprocess a source file
+cpp/src/interp_linear.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numRec.dir/build.make CMakeFiles/numRec.dir/cpp/src/interp_linear.cpp.i
+.PHONY : cpp/src/interp_linear.cpp.i
+
+cpp/src/interp_linear.s: cpp/src/interp_linear.cpp.s
+.PHONY : cpp/src/interp_linear.s
+
+# target to generate assembly for a file
+cpp/src/interp_linear.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numRec.dir/build.make CMakeFiles/numRec.dir/cpp/src/interp_linear.cpp.s
+.PHONY : cpp/src/interp_linear.cpp.s
+
 cpp/src/ludcmp.o: cpp/src/ludcmp.cpp.o
 .PHONY : cpp/src/ludcmp.o
 
@@ -484,6 +532,12 @@ help:
 	@echo "... cpp/src/gaussj.o"
 	@echo "... cpp/src/gaussj.i"
 	@echo "... cpp/src/gaussj.s"
+	@echo "... cpp/src/interp_1d.o"
+	@echo "... cpp/src/interp_1d.i"
+	@echo "... cpp/src/interp_1d.s"
+	@echo "... cpp/src/interp_linear.o"
+	@echo "... cpp/src/interp_linear.i"
+	@echo "... cpp/src/interp_linear.s"
 	@echo "... cpp/src/ludcmp.o"
 	@echo "... cpp/src/ludcmp.i"
 	@echo "... cpp/src/ludcmp.s"
